@@ -1,1 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porto de Areia Schumacher</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .banner {
+            background: url("https://picsum.photos/1200/400?gravel") center/cover no-repeat;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-shadow: 1px 1px 4px #000;
+        }
+
+        .banner h2 {
+            font-size: 40px;
+            background: rgba(0,0,0,0.5);
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1100px;
+            margin: auto;
+            background: #fff;
+            margin-bottom: 20px;
+        }
+
+        section h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #2c3e50;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .produtos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .produto {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            background: #fafafa;
+        }
+
+        .produto img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .galeria img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .contato p {
+            margin: 8px 0;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Porto de Areia Schumacher</h1>
+    <nav>
+        <a href="#quem-somos">Quem Somos</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<div class="banner">
+    <h2>Qualidade e tradição na extração de areia e seixos</h2>
+</div>
+
+<section id="quem-somos">
+    <h2>Quem Somos</h2>
+    <p>
+        A <strong>Porto de Areia Schumacher</strong>, razão social
+        <strong>Schumacher - Comércio e Extração de Areia e Seixos LTDA</strong>,
+        atua desde 1994 no município de Barra do Bugres – MT, oferecendo materiais
+        de alta qualidade para a construção civil.
+    </p>
+    <p>
+        Com mais de 30 anos de experiência no mercado, a empresa é referência
+        na extração e beneficiamento de areia, cascalho e seixos, prezando pela
+        responsabilidade ambiental, eficiência operacional e compromisso com
+        seus clientes.
+    </p>
+</section>
+
+<section id="produtos">
+    <h2>Produtos</h2>
+    <div class="produtos">
+        <div class="produto">
+            <img src="https://picsum.photos/400/250?1" alt="Areia fina">
+            <h3>Areia Fina</h3>
+            <p>Indicada para reboco, assentamento e acabamento de obras.</p>
+        </div>
+
+        <div class="produto">
+            <img src="https://picsum.photos/400/250?2" alt="Areia grossa">
+            <h3>Areia Grossa</h3>
+            <p>Ideal para concreto, fundações e estruturas.</p>
+        </div>
+
+        <div class="produto">
+            <img src="https://picsum.photos/400/250?3" alt="Cascalho">
+            <h3>Cascalho</h3>
+            <p>Utilizado em drenagem, pavimentação e obras rurais.</p>
+        </div>
+
+        <div class="produto">
+            <img src="https://picsum.photos/400/250?4" alt="Seixos">
+            <h3>Seixos</h3>
+            <p>Aplicações decorativas, paisagismo e construção.</p>
+        </div>
+    </div>
+</section>
+
+<section id="galeria">
+    <h2>Galeria</h2>
+    <div class="galeria">
+        <img src="https://picsum.photos/400/300?5" alt="Extração">
+        <img src="https://picsum.photos/400/300?6" alt="Material">
+        <img src="https://picsum.photos/400/300?7" alt="Operação">
+        <img src="https://picsum.photos/400/300?8" alt="Equipamentos">
+    </div>
+</section>
+
+<section id="contato" class="contato">
+    <h2>Contato</h2>
+    <p><strong>Empresa:</strong> Schumacher - Comércio e Extração de Areia e Seixos LTDA</p>
+    <p><strong>Nome Fantasia:</strong> Porto de Areia Schumacher</p>
+    <p><strong>CNPJ:</strong> 86.931.102/0001-46</p>
+    <p><strong>Endereço:</strong> Rua Santarém, 100 – Centro</p>
+    <p><strong>Cidade/UF:</strong> Barra do Bugres – MT</p>
+    <p><strong>CEP:</strong> 78390-000</p>
+</section>
+
+<footer>
+    <p>© 2026 Porto de Areia Schumacher</p>
+    <p>Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
 
